@@ -1165,10 +1165,10 @@ agent-base@6:
   dependencies:
     debug "4"
 
-altair-graphql-core@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/altair-graphql-core/-/altair-graphql-core-4.3.1.tgz#6ffddad23a1a8a17a3911aeed3e1bbf21f8e68c1"
-  integrity sha512-0t6Pm3B80V+AhOf2n9JjsYxFJkETzbTtmviDp/HNVEZlMqLu+6Bn3LRErKFapkpqqQ19LMGLkVus5pN0Tze2eg==
+altair-graphql-core@^4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/altair-graphql-core/-/altair-graphql-core-4.4.1.tgz#7d7d376636a36a8457e128257c21fdd70a7794a8"
+  integrity sha512-bfGBTJVeagDmY+KcF447+sEgnFFau5IZppv0mBFKy8kU5nGi8RlWC/vsuNavsjeQRm3YPP90yf7OtfHgyjRETg==
   dependencies:
     "@apollo/client" "^3.3.20"
     actioncable "^5.2.6"
@@ -1188,12 +1188,12 @@ altair-graphql-core@^4.3.1:
     util "^0.12.4"
     uuid "^8.3.2"
 
-altair-static@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/altair-static/-/altair-static-4.3.1.tgz#7380c519ade2a39618f0405c4ef5b4dc97b215e1"
-  integrity sha512-muhgeR4xWs6nfEfy4llfl7rEtMuyyxcFYWEfsTkWrIWHoAVoRW/EYpN0KbgEhHkHB/bMOnnY7UifGn568NwkuA==
+altair-static@^4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/altair-static/-/altair-static-4.4.1.tgz#fde10cc9bb9c712a13d3fe3ed9cfffdd73289fb6"
+  integrity sha512-D+Rwwerlw7QLDs+pdgPgyOyvEh0WyXuMU8Yub3N2OLvE6b3rMk/Qbe6ufifngI5/KwKisbHjmKsgLZ8tDCA6wA==
   dependencies:
-    altair-graphql-core "^4.3.1"
+    altair-graphql-core "^4.4.1"
 
 ansi-align@^3.0.0:
   version "3.0.0"
@@ -3457,15 +3457,10 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
-  integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
-
-minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+minimist@^1.2.0, minimist@^1.2.5:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 ms@2.0.0:
   version "2.0.0"
